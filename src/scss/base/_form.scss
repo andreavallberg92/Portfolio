@@ -1,0 +1,55 @@
+@use '../components/buttons' as button;
+
+::placeholder {
+    color: var(--color-dark-900);
+}
+input, button {
+    &[type="text"],
+    &[type="email"],
+    &[type="tel"] {
+        max-width: 100%;
+        width: 100%;
+        border: 1px solid var(--color-dark-900);
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        font-size: var(--font-size-2);
+        font-family: var(--font-sans);
+        &:focus {
+            outline: 0;
+            border-color: var(--color-dark-700);
+        }
+    }
+
+    &[type="submit"] {
+        background-color:transparent;
+	border:1px solid var(--color-dark-900);
+	display:inline-block;
+	cursor:pointer;
+	color: var(--color-dark-700);
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+    margin-right: var(--gap-m);
+    font-size: var(--font-size-1);
+    &:hover {
+        color: var(--color-accent-500);
+    }
+    }
+
+}
+
+textarea {
+    border: 1px solid var(--color-dark-900);
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        font-size: var(--font-size-2);
+        font-family: var(--font-sans);
+        max-width: 100%;
+        width: 100%;
+        &:focus {
+            outline: 0;
+            border-color: var(--color-dark-700);
+        }
+}

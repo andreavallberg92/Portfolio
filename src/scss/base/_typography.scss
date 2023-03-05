@@ -1,0 +1,48 @@
+body {
+    font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--color-dark-700);
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+h3 {
+    
+}
+h4 {
+    
+}
+h5 {
+    
+}
+h6 {
+    
+}
+
+p {
+    line-height: var(--line-height);
+    color: var(--color-dark-500);
+}
+
+a {
+    
+    color: var(--color-dark-700);
+    text-decoration: none;
+    line-height: var(--line-height);
+    cursor: pointer;
+    &:hover {
+        color: var(--color-accent-500);
+    }
+}
+
+li {
+    line-height: var(--line-height);
+}

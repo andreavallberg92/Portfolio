@@ -1,0 +1,52 @@
+.site-header {
+    display: grid;
+    grid-template-columns: var(--grid-container);
+    position: fixed;
+    background-color: var(--color-light-200);
+    border-bottom: 2px solid var(--color-dark-700);
+    height: 60px;
+    width: 100%;
+    z-index: 999;
+
+    &--scroll {
+        display: none;
+        
+    }
+
+    &__inner {
+        grid-column: inner;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__logo {
+        color: var(--color-dark-700);
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+}
+
+.menu {
+    &__list {
+        display: flex;
+        gap: var(--gap-m);
+        list-style: none;
+        margin: 0;
+
+    }
+
+    &__item {
+        font-size: var(--font-size-1);
+
+        a {
+            color: var(--color-dark-700);
+
+            &:hover {
+                color: var(--color-accent-500);
+            }
+        }
+    }
+}

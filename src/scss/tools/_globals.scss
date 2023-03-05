@@ -1,0 +1,59 @@
+:root {
+
+    --section-gap: 8rem;
+    --section-gap-inner: calc( var(--section-gap) * 0.75 );
+    
+    --gap-xl: 4rem;
+    --gap-l: 3rem;
+    --gap-m: 2rem;
+    --gap-s: 1rem;
+
+    --border-radius: 0px;
+
+    --color-dark: #0e0909;
+    --color-dark-200: #271a19;
+    --color-dark-300: #48302f;
+    --color-dark-500: #6b4746;
+    --color-dark-600: #8e5e5d;
+    --color-dark-700: #b57776;
+    --color-dark-800: #c98280;
+    --color-dark-900: #e79796; //base
+
+    --color-accent: #fe8c0a;
+    --color-accent-200: #fe9823;
+    --color-accent-300: #fb9f37;
+    --color-accent-400: #f9ae57;
+    --color-accent-500: #fabc75;
+    --color-accent-600: #ffc98b;  //base
+    --color-accent-700: #fcd09e;
+    --color-accent-800: #f9dbb8;
+    --color-accent-900: #fdeedd;
+    
+    --color-light: #f5edeb;
+    --color-light-200: #f6e1dd;
+    --color-light-300: #f5d9d4;
+    --color-light-400: #f5cec7; // base
+    --color-light-500: #f4c3bb;
+    --color-light-600: #f2b7ac;
+    --color-light-700: #f5aea1;
+    --color-light-800: #f19989;
+    --color-light-900: #ef836f;
+
+    --font-sans: 'Arial', sans-serif;
+    --font-serif: 'Georgia', serif;
+
+    --line-height: 1.5;
+
+    --font-scale: 1.25;
+    --font-size: 1.125rem;
+
+    --font-size-1: var(--font-size);
+    --font-size-2: calc( var(--font-size-1) * var(--font-scale));
+    --font-size-3: calc( var(--font-size-2) * var(--font-scale));
+    --font-size-4: calc( var(--font-size-3) * var(--font-scale));  
+    --font-size-5: calc( var(--font-size-4) * var(--font-scale));  
+    --font-size-6: calc( var(--font-size-5) * var(--font-scale));  
+
+    --page-inner: 90rem;
+    --grid-container: minmax(2rem, 1fr) [inner-start] minmax(0, var(--page-inner)) [inner-end] minmax(2rem, 1fr);
+}

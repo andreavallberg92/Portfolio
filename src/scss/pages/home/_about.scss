@@ -1,0 +1,131 @@
+.about {
+    padding: var(--gap-m) 0 0 0;
+    background: rgb(246,225,221);
+    background: linear-gradient(180deg, rgba(245,174,161,1) 80%, rgba(246,225,221,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: var(--grid-container);
+
+    &__inner {
+        display: grid;
+        grid-column: inner;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__portfolio {
+        margin: 0;
+        margin-left: var(--gap-m);
+    }
+
+    &__title {
+        margin: 0;
+        font-size: var(--font-size-3);
+        margin-bottom: var(--gap-xl);
+        
+    }
+    
+    &__text {
+        margin: 0;
+        font-size: var(--font-size-1);
+        line-height: var(--line-height);
+        margin-bottom: var(--section-gap-inner);
+    }
+
+    &__button {
+        background-color:transparent;
+	border:2px solid var(--color-dark-700);
+	display:inline-block;
+	cursor:pointer;
+	color: var(--color-dark-700);
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+    margin-right: var(--gap-m);
+    font-size: var(--font-size-1);
+    }
+
+    &__slide {
+        margin: 0;
+    }
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+swiper-container {
+  width: 100%;
+  height: 300px;
+//   margin-left: auto;
+//   margin-right: auto;
+}
+
+swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper {
+  height: 60vh;
+  width: 40vw;
+}
+
+.mySwiper2 {
+  height: 20vh;
+  width: 40vw;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper2 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper2 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
